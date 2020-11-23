@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>FinalProject</title>
+    <title>ClassBoard</title>
     <%= csrf_meta_tags %>
 
     <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
@@ -13,9 +13,15 @@
 
     <%= stylesheet_link_tag 'application', media: 'all' %>
 
+    <link rel="shortcut icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK_E5ER2V2aFyU8MufFj7ncYW1QANDvX87Kw&usqp=CAU"/>
   </head>
 
   <body>
+    <center>
+      <h1 style="color:black">Class<span style="color:cornflowerblue">Board</span> </h1>
+    </center>
+    <DIV STYLE="background-color:cornflowerblue; height:10px; width:100%;">
+    <br>
     <%= yield %>
   </body>
 </html>
